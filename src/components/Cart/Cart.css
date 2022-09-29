@@ -1,7 +1,7 @@
-.cart-container {
+/* .cart-container {
     position: sticky;
     top: 0;
-}
+} */
 
 .profile {
     display: flex;
@@ -28,16 +28,11 @@
     margin: 30px 40px;
 }
 
-.break-time {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.break-time h1 {
+.break {
+    margin: 20px 40px;
     background-color: darkgray;
     padding: 10px;
+    border-radius: 5px;
 }
 
 .cart-info-container {

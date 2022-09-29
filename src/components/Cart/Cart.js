@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Break from '../Break/Break';
 import './Cart.css'
 
 const Cart = (props) => {
     const { cart } = props;
-    console.log(cart)
+    // console.log(cart)
 
     let time = 0;
     for (const p of cart) {
         time = time + parseInt(p.time)
+    }
+
+
+    const [breaktime, setbreaktime] = useState(localStorage.getItem("Break Time"));
+    const addToBreak = (event) => {
+        localStorage.setItem("Break Time", event.target.innerText);
+        setbreaktime(event.target.innerText)
     }
 
     return (
@@ -48,7 +55,9 @@ const Cart = (props) => {
             </div>
 
             <div className="add-a-break-container">
-                <Break></Break>
+                <Break
+                    addToBreak={addToBreak}
+                ></Break>
 
             </div>
 
@@ -59,6 +68,10 @@ const Cart = (props) => {
             <div className='cart'>
                 <div className="cart-info-container">
                     <p className='text-xl font-bold'>Exercise time: {time}s</p>
+                </div>
+
+                <div className='break'>
+                    <p className='text-xl font-bold'>Break Time: {breaktime}</p>
                 </div>
             </div>
         </div>

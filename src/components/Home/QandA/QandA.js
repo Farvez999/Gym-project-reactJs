@@ -13,7 +13,7 @@ const QandA = () => {
 
             <div>
                 <h1 className="text-3xl font-bold mt-10">Qus 2 : What is the difference between state and props in React?</h1>
-                <p className='text-2xl'>Use state to store the data your current page needs in your controller-view.
+                <div className='text-2xl'>Use state to store the data your current page needs in your controller-view.
 
                     Use props to pass data & event handlers down to your child components.
 
@@ -38,7 +38,7 @@ const QandA = () => {
                         5. State should not be accessed from child components.<br />
                         6. State pass it down with props instead.<br />
                     </p>
-                </p>
+                </div>
             </div>
 
             <div>

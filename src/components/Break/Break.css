@@ -1,0 +1,15 @@
+.break-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.break-time h1 {
+    background-color: darkgray;
+    padding: 10px;
+}
+
+.break-time h1:hover {
+    background-color: greenyellow;
+}
