@@ -2,5 +2,16 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     margin: 30px 40px;
+}
 
+@media only screen and (max-width: 688px) {
+    .home-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gym-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
