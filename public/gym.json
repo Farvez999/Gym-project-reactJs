@@ -4,7 +4,7 @@
     "name": "Kobo Multi Stepper",
     "description": "Working from home meant we could vary snack and coffee breaks, change our desks or view, goof off, drink on the job, even spend the day in pajamas",
     "age": 420,
-    "time": 20,
+    "time": "20s",
     "img": "http://www.silvergymbd.com/img/shop/single-1.jpg"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Muscle Pharm CLA",
     "description": "Working from home meant we could vary snack and coffee breaks, change our desks or view, goof off, drink on the job, even spend the day in pajamas",
     "age": 420,
-    "time": 20,
+    "time": "20s",
     "img": "http://www.silvergymbd.com/img/shop/2.jpg"
   },
   {
@@ -20,7 +20,7 @@
     "name": "BSA Duatron Dual Air Bike",
     "description": "Working from home meant we could vary snack and coffee breaks, change our desks or view, goof off, drink on the job, even spend the day in pajamas",
     "age": 420,
-    "time": 20,
+    "time": "20s",
     "img": "http://www.silvergymbd.com/img/shop/3.jpg"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Rocket Twister with  N Grip",
     "description": "Working from home meant we could vary snack and coffee breaks, change our desks or view, goof off, drink on the job, even spend the day in pajamas",
     "age": 420,
-    "time": 20,
+    "time": "20s",
     "img": "http://www.silvergymbd.com/img/shop/4.jpg"
   },
   {
@@ -36,7 +36,7 @@
     "name": "25Kg Weight Plates",
     "description": "Working from home meant we could vary snack and coffee breaks, change our desks or view, goof off, drink on the job, even spend the day in pajamas",
     "age": 420,
-    "time": 20,
+    "time": "20s",
     "img": "http://www.silvergymbd.com/img/shop/5.jpg"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Wheel With Knee Cushion",
     "description": "Working from home meant we could vary snack and coffee breaks, change our desks or view, goof off, drink on the job, even spend the day in pajamas",
     "age": 420,
-    "time": 20,
+    "time": "20s",
     "img": "http://www.silvergymbd.com/img/shop/8.jpg"
   }
 ]
