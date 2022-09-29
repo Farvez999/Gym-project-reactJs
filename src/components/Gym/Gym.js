@@ -2,7 +2,7 @@ import React from 'react';
 import SingleGYM from '../SingleGYM/SingleGYM';
 import './Gym.css'
 
-const Gym = ({ gyms }) => {
+const Gym = ({ gyms, cart, setCart }) => {
     console.log(gyms);
     return (
 
@@ -12,6 +12,9 @@ const Gym = ({ gyms }) => {
                     gyms.map(gym => (
                         <SingleGYM
                             gym={gym}
+                            key={gym.id}
+                            cart={cart}
+                            setCart={setCart}
                         ></SingleGYM>
                     ))
                 }
