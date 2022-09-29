@@ -1,7 +1,7 @@
 import React from 'react';
-import './QandA.css'
+import './Qus.css'
 
-const QandA = () => {
+const Qus = () => {
     return (
         <div className='qa-container'>
             <div>
@@ -57,4 +57,4 @@ const QandA = () => {
     );
 };
 
-export default QandA;
+export default Qus;
