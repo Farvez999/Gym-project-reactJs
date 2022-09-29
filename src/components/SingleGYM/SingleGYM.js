@@ -5,8 +5,6 @@ const SingleGYM = (props) => {
     const { handleAddToList } = props;
     const { id, name, description, age, time, img } = props.gym;
 
-    // console.log(props.handleAddToList)
-
     return (
         <div>
             <div className="card w-full h-full bg-base-100 shadow-xl">
