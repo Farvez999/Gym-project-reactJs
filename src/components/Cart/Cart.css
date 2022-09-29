@@ -35,6 +35,13 @@
     border-radius: 5px;
 }
 
+.activity-completed {
+    margin: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .cart-info-container {
     margin: 20px 40px;
     background-color: darkgray;
